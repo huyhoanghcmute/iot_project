@@ -1,0 +1,244 @@
+#phong_khach {
+    background-repeat: no-repeat;
+    background-image: url("img/img1.jpg");
+    background-size: 85% auto;
+    display: flex;
+    justify-content: space-around;
+    background-position-x: 120px;
+    background-position-y: 70px;
+}
+#phong_ngu {
+    background-image: url("img/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: 85% auto;
+    display: flex;
+    background-position-x: 120px;
+}
+#phong_bep {
+    background-image: url("img/img10.jpg");
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+    display: flex;
+    background-position-x: 250px;
+    background-position-y: 90px;
+    background-color: #f6f6f6;
+}
+.card-img-top {
+    border-color: white;
+    border-style: solid;
+    border-radius: 90px;
+    overflow: hidden;
+    /* background-color:hsla(188, 44%, 93%, 0.905); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px 0px;
+    display: plex;
+    text-align: justify;
+}
+/* Phong khách */
+#denId_01 {
+    position: absolute;
+    /* top: 10%; */
+    left: 5%;
+}
+#denId_02 {
+    position: absolute;
+    /* top: 10%; */
+    right: 65%;
+}
+#denId_03 {
+    position: absolute;
+    /* top: 10%; */
+    right: 2%;
+}
+
+#bt01 {
+    position: absolute;
+    top: 25%;
+    left: 7.5%;
+}
+#bt02 {
+    position: absolute;
+    top: 25%;
+    left: 27%;
+}
+#bt03 {
+    position: absolute;
+    top: 25%;
+    left: 90%;
+}
+.Temp {
+    padding-left: 52%;
+    font-size: 22px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.setting {
+    display: flex;
+    gap: 160px;
+    padding-left: 39.5%;
+}
+#nhietdo {
+    color: #e7ac0b;
+}
+#doam {
+    color: #e7ac0b;
+}
+/* //////////////////////// */
+/* Bedroom */
+#denId_04 {
+    position: absolute;
+    /* top: 10%; */
+    left: 5%;
+}
+#denId_05 {
+    position: absolute;
+    /* top: 10%; */
+    right: 65%;
+}
+#denId_06 {
+    position: absolute;
+    /* top: 10%; */
+    right: 7%;
+}
+#bt04 {
+    position: absolute;
+    top: 25%;
+    left: 7.5%;
+}
+#bt05 {
+    position: absolute;
+    top: 25%;
+    left: 27%;
+}
+#bt06 {
+    position: absolute;
+    top: 25%;
+    left: 85.2%;
+}
+.Temp1 {
+    padding-top: 12%;
+    padding-left: 6%;
+    color: #e7ac0b;
+    font-size: 22px;
+}
+/* //////////////////////// */
+#denId_07 {
+    position: absolute;
+    /* top: 3%; */
+    left: 5%;
+}
+#denId_08 {
+    position: absolute;
+    /* top: 3%; */
+    right: 47%;
+}
+#denId_09 {
+    position: absolute;
+    /* top: 3%; */
+    right: 7%;
+}
+#bt07 {
+    position: absolute;
+    top: 26%;
+    left: 7.5%;
+}
+#bt08 {
+    position: absolute;
+    top: 26%;
+    left: 45.2%;
+}
+#bt09 {
+    position: absolute;
+    top: 26%;
+    left: 85%;
+}
+#Temp2 {
+    padding-top: 12%;
+    color: #e7ac0b;
+    font-size: 22px;
+}
+.setting2 {
+    display: flex;
+    gap: 180px;
+    padding-left: 35.5%;
+}
+/* ////////// */
+#menu_phu a {
+    text-decoration: none;
+}
+#menu_phu {
+    padding-inline-start: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+ul#menu_phu li {
+    overflow: hidden;
+    max-width: 250px;
+}
+ul#menu_phu li a img {
+    transition: all 0.2s ease-in-out;
+}
+ul#menu_phu li:hover img {
+    transform: scale(1.1);
+}
+ul#menu_phu li strong:hover {
+    color: rgb(158, 235, 71);
+}
+ul#menu_phu li a strong {
+    color: black;
+    justify-content: space-between;
+}
+#hinh img {
+    height: 151px;
+    width: 280px;
+    padding: 10px 0px 10px 0px;
+}
+#btnOnId_03,
+#btnOnId_02,
+#btnOnId_01,
+#btnOnId_04,
+#btnOnId_05,
+#btnOnId_06,
+#btnOnId_07,
+#btnOnId_08,
+#btnOnId_09 {
+    border-radius: 50px;
+    z-index: 5;
+    box-shadow: rgba(100, 100, 111, 0.2);
+    font-weight: 600;
+}
+#btnOffId_03,
+#btnOffId_02,
+#btnOffId_01,
+#btnOffId_04,
+#btnOffId_05,
+#btnOffId_06,
+#btnOffId_07,
+#btnOffId_08,
+#btnOffId_09 {
+    border-radius: 50px;
+    box-shadow: rgba(7, 225, 47, 0.919);
+    font-weight: 600;
+}
+.go_back{
+    /* border-radius: 50%; */
+
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    left: 0%;
+    top: 50%;
+    padding: 10px 0px 10px 0px;
+    border-color: aqua;
+    text-align: justify;
+}
+.go_back_bep{
+    border-radius: 50%;
+    position: absolute;
+    left: 0%;
+    top: 70%;
+    padding: 10px 0px 10px 0px;
+    border: 5px;
+   
+}
+/* .go_back:hover {
+    background: rgb(212, 203, 203);
+} */
